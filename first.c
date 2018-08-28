@@ -1,5 +1,11 @@
 #include<stdio.h>
 void main()
 {
-	printf("Hello World\n");
+int a,b,sum;
+printf("enter two numbers");
+scanf("%d%d",&a,&b);
+sum=a+b;
+printf("the sum is %d",sum);
+
+
 }
