@@ -13,3 +13,11 @@ What is a file?
 File is where we store information?
 What information will be stored in stdio.h and where is header file?
 
+This header contains information used by the compiler when compiling calls to standard input/output library
+functions such as  printf. We explain the contents of headers in more detail in Chapter 5.
+
+Each standard library has a corresponding header containing the function prototypes for
+all the functions in that library and definitions of various data types and constants needed
+by those functions. 
+
+What is a function?
