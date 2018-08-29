@@ -1,0 +1,15 @@
+Why start with 
+#
+in the line 
+#include<stdio.h>
+
+The C preprocessor executes before a program is compiled.
+There are two things C preprocessor another C compiler.
+
+All the lines beginning with # is processed by preprocesor.
+What is stdio.h?
+It is a file.
+What is a file?
+File is where we store information?
+What information will be stored in stdio.h and where is header file?
+
