@@ -21,3 +21,17 @@ all the functions in that library and definitions of various data types and cons
 by those functions. 
 
 What is a function?
+guest-occe3f@nvedia-OptiPlex-3050:~$ cd ankitha
+guest-occe3f@nvedia-OptiPlex-3050:~/ankitha$ ls
+tst.c
+guest-occe3f@nvedia-OptiPlex-3050:~/ankitha$ gcc tst.c
+guest-occe3f@nvedia-OptiPlex-3050:~/ankitha$ ./a.out
+enter two numbers2,3
+the sum is -416064670guest-occe3f@nvedia-OptiPlex-3050:~/ankitha$ gcc tst.c
+guest-occe3f@nvedia-OptiPlex-3050:~/ankitha$ ./a.out
+enter two numbers1 2
+the sum is 3guest-occe3f@nvedia-OptiPlex-3050:~/ankitha$ gcc tst.c
+guest-occe3f@nvedia-OptiPlex-3050:~/ankitha$ ./a.out
+enter two numbers : 1 2
+the sum is 3 
+cd stands for change directrix ?
