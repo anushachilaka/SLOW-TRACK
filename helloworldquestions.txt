@@ -8,11 +8,11 @@ There are two things C preprocessor another C compiler.
 
 All the lines beginning with # is processed by preprocesor.
 What is stdio.h?
-It is a file.
+It is a  header file.
 What is a file?
-File is where we store information?
+File is where we store information
 What information will be stored in stdio.h and where is header file?
-
+Header files contain information needed by the compiler telling it about functions and macros not present in a .c file. By convention, they are named with a .h extention.
 This header contains information used by the compiler when compiling calls to standard input/output library
 functions such as  printf. We explain the contents of headers in more detail in Chapter 5.
 
@@ -20,7 +20,7 @@ Each standard library has a corresponding header containing the function prototy
 all the functions in that library and definitions of various data types and constants needed
 by those functions. 
 
-What is a function?
+What is a function? A function is a unit of code that is often defined by its role within a greater code structure.
 guest-occe3f@nvedia-OptiPlex-3050:~$ cd ankitha
 guest-occe3f@nvedia-OptiPlex-3050:~/ankitha$ ls
 tst.c
@@ -34,4 +34,5 @@ the sum is 3guest-occe3f@nvedia-OptiPlex-3050:~/ankitha$ gcc tst.c
 guest-occe3f@nvedia-OptiPlex-3050:~/ankitha$ ./a.out
 enter two numbers : 1 2
 the sum is 3 
-cd stands for change directrix ?
+cd stands for change directory
+what is a code structure? The code structure is designed to permit easy portability to other parallel platforms as well as ease of modification for climate researchers.
