@@ -1,0 +1,6 @@
+wrote a program to add to numbers
+compiled a program
+found the errors 
+we cannot use void and return zero together 
+main is a function and it returns something and when we enter return zero , zero is an interger and in main we are adding void 
+which does not allow main to return any inetger so we should not use void and return 0 together.
