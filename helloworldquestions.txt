@@ -37,4 +37,8 @@ the sum is 3
 cd stands for change directory
 what is a code structure? The code structure is designed to permit easy portability to other parallel platforms as well as ease of modification for climate researchers.
 know all the functions , write a new code.
-
+Each program we’ve presented has consisted of a function called 
+main that called standard library functions to accomplish its tasks
+what is a standard library function?
+C Standard Library Functions. ... C Standard library functions or simply C Library functions are inbuilt functions in C programming. The prototype and data definitions of the functions are present in their respective header files, and must be included in your program to access them.
+In computer programming, a function prototype or function interface is a declaration of a function that specifies the function's name and type signature (arity, data types of parameters, and return type), but omits the function body.
