@@ -36,3 +36,5 @@ enter two numbers : 1 2
 the sum is 3 
 cd stands for change directory
 what is a code structure? The code structure is designed to permit easy portability to other parallel platforms as well as ease of modification for climate researchers.
+know all the functions , write a new code.
+
