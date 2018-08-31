@@ -15,3 +15,11 @@ Then comes the linker which links the object code into the system library creati
 An executable file is a file that is used to perform various functions or operations on a computer. Unlike a data file, an executable file cannot be read because it has been compiled. 
 Then the loader takes the executable file from the disks and stores it in the primary memory of the computer.
 Then the intructions from the primary memoery is taken by the cpu and then excecuted.
+How does the preprocessor program process the code?
+How does the CPU executes the program
+It all happens in six steps 
+-first step the cpu fetches the information from the main memory 
+-the instruction from the memory is decoded by the decoder
+-the required operation is done like addition or subtraction etc when the input of the required numbers is given.
+-and the output is returned to the register file
+
