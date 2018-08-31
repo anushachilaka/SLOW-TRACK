@@ -1,0 +1,11 @@
+Editor is a person who creates a program. He creates a program and stores it in a disk.
+What is a disk?
+Disk is a hard round magnetic plate which is cappable of storing an information and we can edit it whenever we want that we can
+write in it as many times we want.
+The information which is stored or saved in a disk is processed or read by a preprocessor program which processes the program.
+Preprocessor program is a program which processes the input given to it and gives the relavent output.
+Next comes the compiler the compiler creates an object code and stores it again on the disk.
+What is an object code?
+Object code is the output of a compiler after it processes source code. Source code is
+the version of a computer program as it is originally written (i.e., typed into a computer)
+by a human in a programming language. A compiler is a specialized program that converts source code into object code.
