@@ -22,4 +22,42 @@ It all happens in six steps
 -the instruction from the memory is decoded by the decoder
 -the required operation is done like addition or subtraction etc when the input of the required numbers is given.
 -and the output is returned to the register file
+addition program
+#include <stdio.h>
+int main(void)
+{
+  int integer 1;
+  int integer 2;
+  int sum;
+  printf("Enter first integer/n");
+  scanf("%d",&integer 1);
+  printf("Enter second integer/n");
+  scanf("%d",integer 2);
+  sum=integer 1+ integer 2;
+  scanf("sum is %d",sum);
+  return 0;
+  }
+  the correct code is 
+  #include <stdio.h>
 
+
+int main(void)
+
+{
+  int integer1;
+  int integer2;
+  int sum;
+  printf("Enter first integer/n");
+  scanf("%d",&integer1);
+  printf("Enter second integer/n");
+  scanf("%d",&integer2);
+  sum=integer1+integer2;
+  printf("sum is %d",sum);
+  
+  
+  }
+  the errors were 
+  -didnt add & before interger 2 
+  -wrote scanf instead of printf
+  -left space between integer and 1
+  
