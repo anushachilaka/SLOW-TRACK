@@ -9,3 +9,9 @@ What is an object code?
 Object code is the output of a compiler after it processes source code. Source code is
 the version of a computer program as it is originally written (i.e., typed into a computer)
 by a human in a programming language. A compiler is a specialized program that converts source code into object code.
+Compiler takes the code or the input which we give to the computer which is called the source code then it processes the program
+and gives the output which is called a source code which is stored in the disk.
+Then comes the linker which links the object code into the system library creating a file which can be executed and then stored in the disk.
+An executable file is a file that is used to perform various functions or operations on a computer. Unlike a data file, an executable file cannot be read because it has been compiled. 
+Then the loader takes the executable file from the disks and stores it in the primary memory of the computer.
+Then the intructions from the primary memoery is taken by the cpu and then excecuted.
