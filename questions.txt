@@ -60,4 +60,31 @@ int main(void)
   -didnt add & before interger 2 
   -wrote scanf instead of printf
   -left space between integer and 1
+  The error was
+  main.c: In function 'main':
+main.c:15:15: error: expected '=', ',', ';', 'asm' or '__attribute__' before numeric constant
+   int integer 1;
+               ^
+main.c:16:15: error: expected '=', ',', ';', 'asm' or '__attribute__' before numeric constant
+   int integer 2;
+               ^
+main.c:19:15: error: 'integer1' undeclared (first use in this function)
+   scanf("%d",&integer1);
+               ^
+main.c:19:15: note: each undeclared identifier is reported only once for each function it appears in
+main.c:21:15: error: 'integer' undeclared (first use in this function)
+   scanf("%d",&integer 2);
+               ^
+main.c:21:23: error: expected ')' before numeric constant
+   scanf("%d",&integer 2);
+                       ^
+main.c:22:15: error: expected ';' before numeric constant
+   sum=integer 1+integer 2;
+               ^
+main.c:23:9: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   scanf("sum is %d",sum);
+         ^
+main.c:23:3: warning: ignoring return value of 'scanf', declared with attribute warn_unused_result [-Wunused-result]
+   scanf("sum is %d",sum);
+   ^
   
