@@ -92,3 +92,10 @@ main.c:23:3: warning: ignoring return value of 'scanf', declared with attribute 
  in programming variables are used to store information to be referenced and used by the programs.
  what is the type of a variable?
  giving the name to the variable or giving it specification
+ There are five basic data types associated with variables:
+
+     int - integer: a whole number.
+    float - floating point value: ie a number with a fractional part.
+    double - a double-precision floating point value.
+    char - a single character.
+    void - valueless special purpose type which we will examine closely in later sections.
