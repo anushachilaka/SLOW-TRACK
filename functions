@@ -1,5 +1,9 @@
 what is a function declaration?
+ A function declaration tells the compiler about a function's name, return type, and parameters.
+
 what is a return type and function parameters?
+The return_type is the data type of the value the function returns.
+what does the above statement mean?
 
 return_type function_name( parameter list ) {
    body of the function
@@ -14,3 +18,4 @@ int max(int num1, int num2);
 Parameter names are not important in function declaration only their type is required, so the following is also a valid declaration −
 
 int max(int, int); why?
+how to divide a code into separate functions?
