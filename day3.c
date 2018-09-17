@@ -5,7 +5,7 @@ c=a+b;
 return c;
 }
 
-
+#include<stdio.h>
 int main()
 {
   int a;
@@ -27,6 +27,7 @@ int main()
   printf ("sum,%d",sum);
   return o ;
 }
+
    
 
 
