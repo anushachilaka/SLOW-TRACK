@@ -8,8 +8,12 @@ what does the above statement mean?
 return_type function_name( parameter list ) {
    body of the function
 }-what does it mean?
+
 what will happen if we write void instead of main or can both void and main be used at the same time ?
+
 what can be the example of return type , function parameter?
+example of return type is int and void.
+
 what is local variable declaration?
 what is calling a function?
 is int compulsary before max in int max(int num1, int num2);if yes why?
