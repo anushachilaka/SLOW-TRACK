@@ -23,3 +23,9 @@ Parameter names are not important in function declaration only their type is req
 
 int max(int, int); why?
 how to divide a code into separate functions?
+
+
+18th
+ Every C program has at least one function, which is main(),
+from the above statement i come to know that every c program should have a main function!! But why is main a compulsary function?
+
