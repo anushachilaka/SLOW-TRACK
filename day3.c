@@ -1,4 +1,4 @@
-int add(int a,int b,int c)
+int add(int a,int b)
 {
 int c;
 c=a+b;
@@ -12,7 +12,7 @@ int main()
   int b;
   int c;
   c=add(int a,int b);
-  printf("The sum is : %d\n");
+  printf("The sum is : %d\n",c);
   return 0;
 }
 
