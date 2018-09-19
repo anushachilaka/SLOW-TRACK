@@ -140,5 +140,13 @@ int max(int num1, int num2) {
  
    return result; 
 }
+
+When a function has no argumentsit does not receive any data from the calling function.
+Similarly when it does not return a value, the calling function does not
+receive any data from the called function.
+what does the above statement mean?
+
+what is a function argument?
+
  
  
