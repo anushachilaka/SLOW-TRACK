@@ -7,7 +7,10 @@ what does the above statement mean?
 
 return_type function_name( parameter list ) {
    body of the function
-}-what does it mean?
+}-what does it mean? 
+   -it gives the information about the type of function i.e., add or max etc and the parameters are like the input 
+which you give to the particular function to take like a,b or some variable which will be able to take the values to operate that function
+int max(int num1, int num2);this might be the possible example for the the above statement.
 
 what will happen if we write void instead of main or can both void and main be used at the same time ?
 
@@ -27,5 +30,9 @@ how to divide a code into separate functions?
 
 18th
  Every C program has at least one function, which is main(),
-from the above statement i come to know that every c program should have a main function!! But why is main a compulsary function?
+from the above statement i came to know that every c program should have a main function!! But why is main a compulsary function?
+
+A function can also be referred as a method or a sub-routine or a procedure, etc. 
+  -this statement means the required function is predefined by the user so that it tells the compiler how to perform the particular task 
+  
 
