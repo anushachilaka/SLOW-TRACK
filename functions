@@ -10,7 +10,8 @@ return_type function_name( parameter list ) {
 }-what does it mean? 
    -it gives the information about the type of function i.e., add or max etc and the parameters are like the input 
 which you give to the particular function to take like a,b or some variable which will be able to take the values to operate that function
-int max(int num1, int num2);this might be the possible example for the the above statement.
+int max(int num1, int num2);this might be the possible example for the the above statement.In this statement integer is the return type , 
+max is the function name and int num1 and int num2 are the parameters.
 
 what will happen if we write void instead of main or can both void and main be used at the same time ?
 
@@ -31,8 +32,59 @@ how to divide a code into separate functions?
 18th
  Every C program has at least one function, which is main(),
 from the above statement i came to know that every c program should have a main function!! But why is main a compulsary function?
-
+19th
 A function can also be referred as a method or a sub-routine or a procedure, etc. 
   -this statement means the required function is predefined by the user so that it tells the compiler how to perform the particular task 
   
+In such case, you should declare the function at the top of the file calling the function.
+ - this means if we want to use a function in the program then we should write the source code before hand so that the compiler 
+ understands what to do.
+ 
+ after defining a function or writring a source code for a function we need to 
+ call that function to our program to perform the specific operation.
+ 
+ so how to call a function after defining it ?
+ To call a function, you simply need to pass the required parameters along with the function name, and if the
+ function returns a value, then you can store the returned value.
+ 
+what happens after calling a function? 
+-When a program calls a function, the program control is transferred to the called function.
+    A called function performs a defined task and when its return statement is executed or when
+    its function-ending closing brace is reached, it returns the program control back to the main program.
+   
+ So the example for the whole thing is 
+ #include <stdio.h>
+ 
+/* function declaration */
+int max(int num1, int num2);-here int is the return type ,max is the name of the function and int num1 ,int num2 are the parameters
+ 
+int main () {
 
+   /* local variable definition */
+   int a = 100;
+   int b = 200;
+   int ret;
+ 
+   /* calling a function to get max value */
+   ret = max(a, b);
+ 
+   printf( "Max value is : %d\n", ret );
+ 
+   return 0;
+}
+the function which is to be called the above program is 
+/* function returning the max between two numbers */
+int max(int num1, int num2) {
+
+   /* local variable declaration */
+   int result;
+ 
+   if (num1 > num2)
+      result = num1;
+   else
+      result = num2;
+ 
+   return result; 
+}
+ 
+ 
