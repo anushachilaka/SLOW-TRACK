@@ -1,15 +1,16 @@
-int add(int a,int b)
+int z;
+int add(int w,int q)
 {
 int c;
-c=a+b;
+c=q+w;
 return c;
 }
 
 #include<stdio.h>
 int main()
 {
-  int a;
-  int b;
+  int a=5;
+  int b=1;
   int c;
   c=add(int a,int b);
   printf("The sum is : %d\n",c);
