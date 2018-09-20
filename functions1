@@ -147,6 +147,10 @@ receive any data from the called function.
 what does the above statement mean?
 
 what is a function argument?
+it is the operation which should be performed like addition, finding the maximum number between the two numbers etc
+ 
+ what is call by value and call by refernce?
+ 
 
  
  
