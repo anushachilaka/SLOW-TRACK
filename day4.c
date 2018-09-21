@@ -9,3 +9,12 @@
     area=(a*b)/2;
     printf("Area of a triangle = %f \n", area);
 }
+
+The function to find the area of the triangle is
+
+float area_of_triangle(float a, float b)
+{
+  float area;
+  area=(a*b)/2;
+  return area;
+}
