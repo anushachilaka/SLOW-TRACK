@@ -2,10 +2,10 @@
 #include <math.h>
  int main()
 {
-    float base, height, area;
- 
-    printf("Enter the values of base and height \n");
-    scanf("%f %f ", &base, &height);
-    area=(base*height)/2;
+    float a, b, area;
+
+    printf("Enter the values of a and b \n");
+    scanf("%f%f", &a, &b);
+    area=(a*b)/2;
     printf("Area of a triangle = %f \n", area);
 }
