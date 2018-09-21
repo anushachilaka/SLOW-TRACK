@@ -1,14 +1,11 @@
 #include <stdio.h>
 #include <math.h>
- 
-void main()
+ int main()
 {
-    float s, a, b, c, area;
+    float base, height, area;
  
-    printf("Enter the values of a, b and c \n");
-    scanf("%f %f %f", &a, &b, &c);
-    /* compute s */
-    s = (a + b + c) / 2;
-    area = sqrt(s * (s - a) * (s - b) * (s - c));
+    printf("Enter the values of base and height \n");
+    scanf("%f %f ", &base, &height);
+    area=(base*height)/2;
     printf("Area of a triangle = %f \n", area);
 }
