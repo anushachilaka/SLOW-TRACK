@@ -1,7 +1,29 @@
 what is a structure in c?
 structure is a user defined data type in which we can define many attributes of same or different data types.
-example:
+example:structure to represent the triangle.
         struct triangle 
         {
-         
+         float base;
+         float height;
+         float area;
         }
+        
+what is an array in c?
+array is also a structured data type in which we can define many attributes of the same data types.
+Array can be used to represent not only simple list of data but also table of data in two or three dimensions.
+
+declaring an array:
+data-type variable-name[size];
+
+/* Example of array declaration */
+
+int arr[10];
+-here int is the data type arr is the variable name and [10] is the size of the array i.e, that particular array can have 
+ten elements of int data type.
+
+how to initialize an array?
+to initialize an array we give the list of values the array should take for example
+int marks[4]={ 67, 87, 56, 77 };    // integer array initialization
+
+float area[5]={ 23.4, 6.8, 5.5 };   // float array initialization
+
