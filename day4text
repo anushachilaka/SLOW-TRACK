@@ -1,0 +1,7 @@
+what is a structure in c?
+structure is a user defined data type in which we can define many attributes of same or different data types.
+example:
+        struct triangle 
+        {
+         
+        }
