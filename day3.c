@@ -1,4 +1,4 @@
-int z;
+
 int add(int w,int q)
 {
 int c;
