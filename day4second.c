@@ -1,11 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+
 float area_of_triangle(float a ,float b)
 {
   float area;
   area=(a*b)/2
    return area;
 }
-#include<stdio.h>
-#include<math.h>
+
   int main()
  {
    float base, height, area;
